@@ -1,4 +1,4 @@
-🧘ERL Performance Testing Project
+# 🧘ERL Performance Testing Project
 
 This is a performance testing project done for one of Sri Lanka’s busiest government institutions: ERL (Electronic Revenue License).
 
@@ -14,24 +14,24 @@ This project uses JMeter test plans (.jmx files) designed for each type of test 
 
 🛠️ Technologies Used
 
-Apache JMeter – for load, performance, and endurance testing.
+- Apache JMeter – for load, performance, and endurance testing.
 
-Grafana – for real-time test monitoring and visualization.
+- Grafana – for real-time test monitoring and visualization.
 
-InfluxDB – as a time-series database to store performance metrics.
+- InfluxDB – as a time-series database to store performance metrics.
 
 📌 JMeter Features Used
 
-Thread Groups (to simulate concurrent users).
+- Thread Groups (to simulate concurrent users).
 
-CSV Data Set Config (to manage dynamic test data).
+- CSV Data Set Config (to manage dynamic test data).
 
-Regular Expression Extractor (to capture dynamic values from responses).
+- Regular Expression Extractor (to capture dynamic values from responses).
 
-Beanshell PreProcessor (for custom scripting and parameter handling).
+- Beanshell PreProcessor (for custom scripting and parameter handling).
 
-Listeners for results visualization and debugging.
+- Listeners for results visualization and debugging.
 
-Timers and Assertions for realistic testing.
+- Timers and Assertions for realistic testing.
 
-Backend Listener (for integration with InfluxDB & Grafana).
+- Backend Listener (for integration with InfluxDB & Grafana).
